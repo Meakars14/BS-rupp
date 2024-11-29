@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RUPP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto">
+      <!-- Header -->
+      <div class="bg-white shadow flex flex-col sm:flex-row items-center p-4">
+        <img
+          src="rupp-logo.png"
+          alt="RUPP Logo"
+          class="w-24 mb-4 sm:mb-0 sm:mr-4"
+        />
+        <p class="text-center sm:text-left">
+          សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ<br />
+          <strong>ROYAL UNIVERSITY OF PHNOM PENH</strong>
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="bg-red-600">
+        <div class="container mx-auto">
+          <button class="block sm:hidden text-white p-4" id="menu-toggle">
+            Menu
+          </button>
+          <ul
+            class="hidden sm:flex flex-wrap justify-between text-white"
+            id="menu"
+          >
+            <li>
+              <a href="#" class="block p-4 text-center"
+                >Faculty <br />of Science</a
+              >
+            </li>
+            <li>
+              <a href="#" class="block p-4 text-center"
+                >Faculty of <br />Social Science <br />and Humanities</a
+              >
+            </li>
+            <li>
+              <a href="#" class="block p-4 text-center"
+                >Faculty of <br />Engineering</a
+              >
+            </li>
+            <li>
+              <a href="#" class="block p-4 text-center"
+                >Faculty of <br />Development <br />Studies</a
+              >
+            </li>
+            <li>
+              <a href="#" class="block p-4 text-center"
+                >Faculty of <br />Education</a
+              >
+            </li>
+            <li>
+              <a href="#" class="block p-4 text-center"
+                >Institute of <br />Foreign Languages</a
+              >
+            </li>
+            <li>
+              <a href="#" class="block p-4 text-center"
+                >Institute for <br />International Studies <br />and Public
+                Policy</a
+              >
+            </li>
+            <li><a href="#" class="block p-4 text-center">Centers</a></li>
+            <li><a href="#" class="block p-4 text-center">Offices</a></li>
+            <li><a href="#" class="block p-4 text-center">Conferences</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Content -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+        <!-- Sidebar -->
+        <div class="space-y-2">
+          <a
+            href="./biology/"
+            class="block p-3 bg-white shadow rounded hover:bg-gray-50"
+            >Biology</a
+          >
+          <a
+            href="./chemistry/"
+            class="block p-3 bg-white shadow rounded hover:bg-gray-50"
+            >Chemistry</a
+          >
+          <a
+            href="./computer_science/"
+            class="block p-3 bg-white shadow rounded hover:bg-gray-50"
+            >Computer Science</a
+          >
+          <a
+            href="./environmental_science/"
+            class="block p-3 bg-white shadow rounded hover:bg-gray-50"
+            >Environmental Science</a
+          >
+          <a
+            href="./mathematics/"
+            class="block p-3 bg-white shadow rounded hover:bg-gray-50"
+            >Mathematics</a
+          >
+          <a
+            href="./physics/"
+            class="block p-3 bg-white shadow rounded hover:bg-gray-50"
+            >Physics</a
+          >
+        </div>
+
+        <!-- Main Content -->
+        <div>
+          <h1 class="text-xl font-bold mb-4">Faculty of Science</h1>
+          <img
+            src="mainfaculty1.jpg"
+            alt="Faculty Banner"
+            class="rounded shadow w-full"
+          />
+        </div>
+
+        <!-- Sidebar Right -->
+        <div class="space-y-4">
+          <!-- Contact Info -->
+          <div class="bg-white shadow p-4 rounded">
+            <h3 class="text-center font-bold mb-2">Contact Info</h3>
+            <img
+              src="https://rupp.edu.kh/images/contact.jpg"
+              alt="Contact Image"
+              class="rounded w-full mb-2"
+            />
+            <h5 class="text-center mb-2">Dean Faculty of Science</h5>
+            <dl>
+              <dt class="font-semibold">Meak Kamerane</dt>
+              <dt>Campus A, 2nd Floor, Room 214 A</dt>
+              <dt><span class="font-semibold">Tel:</span> (855)-23-882-716</dt>
+              <dt>
+                <span class="font-semibold">Mobile:</span> (855)-12-876-971
+              </dt>
+              <dt><span class="font-semibold">Fax:</span> 855-23-882-716</dt>
+              <dt>
+                <span class="font-semibold">Email:</span>
+                kamerane.meak(at)rupp.edu.kh
+              </dt>
+            </dl>
+          </div>
+
+          <!-- Student Life -->
+          <div class="bg-white shadow p-4 rounded">
+            <h3 class="font-bold mb-2">Student Life</h3>
+            <div class="flex items-start">
+              <img
+                src="https://rupp.edu.kh/images/studentlife.jpg"
+                alt="Student Life"
+                class="w-20 rounded mr-3"
+              />
+              <p>
+                Foreign students interested in studying in Cambodia should first
+                approach their national government.
+                <a
+                  href="https://rupp.edu.kh/studentlife/"
+                  class="text-blue-600 underline"
+                  >read more...</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- Scholarship -->
+          <div class="bg-white shadow p-4 rounded">
+            <h3 class="font-bold mb-2">Scholarship</h3>
+            <div class="flex items-start">
+              <img
+                src="https://rupp.edu.kh/images/scholarship.jpg"
+                alt="Scholarship"
+                class="w-20 rounded mr-3"
+              />
+              <p>
+                For students looking for scholarships, RUPP provides several
+                sources of support.
+                <a href="#" class="text-blue-600 underline">read more...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="bg-white shadow mt-6 p-4 text-center">
+        <p>
+          All Rights Reserved, Copyright © 2023 Royal University of Phnom Penh
+          (RUPP)
+        </p>
+        <p>
+          Russian Federation Boulevard, Toul Kork, Phnom Penh, Cambodia.<br />
+          Tel: 855-23-883-640 | Fax: 855-23-880-116
+        </p>
+        <p>
+          Designed by: Rorn Meakara
+          <a href="#" class="text-blue-600 underline">IT Center</a>
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      document
+        .getElementById("menu-toggle")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>
